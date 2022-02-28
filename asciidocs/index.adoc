@@ -1,6 +1,6 @@
-= My Project
-firstname lastname
-1.0.0, yyyy-mm-dd: Some notes
+= Netzwerktechnikskript
+Oliver Schatzberger
+1.0.0, 2022-02-27: Basic notes
 ifndef::imagesdir[:imagesdir: images]
 //:toc-placement!:  // prevents the generation of the doc at this position, so it can be printed afterwards
 :sourcedir: ../src/main/java
@@ -14,8 +14,49 @@ ifdef::backend-html5[]
 // print the toc here (not at the default position)
 //toc::[]
 
-== Header 1
+==  ProxMox
 
+===  Webserver
 
-=== Header 2
+image::pic1.jpeg[]
 
+Zusätzlichen User erstellen und Adminrechte vergeben.
+
+image::pic8.jpg[]
+
+Nginx installieren und konfigurieren.
+
+[source, shell]
+----
+apt install nginx-light
+----
+
+Das Verzeichnis dem User zuteilen 
+[source, shell]
+----
+chown -R me /var/www/html
+----
+
+Zugriffe tracken
+[source, shell]
+----
+tail -f /var/log/nginx/access.log 
+----
+image::pic7.jpg[]
+
+aktuell noch eine Fehlermeldung vorhanden
+
+=== piHole
+
+image::pic9.png[]
+Pihole downloaden
+
+image::pic6.jpg[]
+
+PiHole installieren 
+
+image::pic5.jpg[]
+PiHole konfigurieren
+
+image::pic4.jpg[]
+IP Adresse aufrufen
