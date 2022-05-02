@@ -19,8 +19,11 @@ ifdef::backend-html5[]
 === Router
 Router konfiguriert mit DHCP und DNS
 
-image::router1.png[Router, 400]
+image::router1.png[Router]
 
+Port Forwarding konfiguieren
+
+image::router2.png[Port Forwarding]
 
 ===  Webserver
 
