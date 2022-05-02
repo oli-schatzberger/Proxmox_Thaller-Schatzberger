@@ -70,6 +70,16 @@ PiHole konfigurieren
 image::pic4.jpg[]
 IP Adresse aufrufen
 
+=== NGNIX Problemlösung
+
+    systemctl status ngnix
+
+.Verzeichnis im sites-enabled Ordner:
+    ls -al
+    sudo nano default
+
+    sudo systemctly restart ngnix
+
 == FCAPS
 _FCAPS ist ein Management-Framework für Netzwerke._
 
@@ -97,4 +107,6 @@ Ein großer Teil liegt darauf, welche Verbesserungen die größten Steigerungen 
 
 === Security
 Es wird das Netzwerk von Hackern, unautorisierten Anwendern, sowie physischer und elektronischer Sabotage geschützt.
+
+
 
