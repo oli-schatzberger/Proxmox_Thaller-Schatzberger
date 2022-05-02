@@ -67,31 +67,31 @@ PiHole konfigurieren
 image::pic4.jpg[]
 IP Adresse aufrufen
 
-=== FCAPS
+== FCAPS
 _FCAPS ist ein Management-Framework für Netzwerke._
 
 *Es werden konkrete Ziele des Nezwerkmanagements in fünf Stufen geteilt:*
 
 //[qanda]
-Fault Management::
+=== Fault Management
 Netzwerkprobleme werden vom Administrator gefunden und korrigiert.
 Durch den Einsatz von Fault-Management bleibt das Netzwerk betriebsbereit und die Downtime wird minimiert.
 
-Configuration Management::
+=== Configuration Management
 Der Betrieb wird vom Administrator überwacht und kontrolliert.
 Die Hardware und die Änderungen bei der Programmierung werden koordiniert.
 Hinzu kommt die Inventarisierung der Ausrüstung und die Versicherung, dass die Programme auf dem neuesten Stand bleiben.
 
-Accounting Management::
+=== Accounting Management
 Hier geht es um die optimale Verteilung der Ressourcen, damit alle Netzwerkanwender gleich darauf zugreifen können.
 Accounting wird genutzt um die vorhandenen Systeme so effizient wie möglich und die Kosten des Betriebs so niedrig wie
 möglich zu halten.
 
 
-Performance Management::
+=== Performance Management
 Es wird die allgemeine Performance im Netzwerk verwaltet.
 Ein großer Teil liegt darauf, welche Verbesserungen die größten Steigerungen bei der Performance bringen.
 
-Security::
+=== Security
 Es wird das Netzwerk von Hackern, unautorisierten Anwendern, sowie physischer und elektronischer Sabotage geschützt.
 
